@@ -196,7 +196,6 @@
 }
 
 .u-section-2 .u-repeater-2 {
-  grid-auto-columns: calc(33.3333% - 3.33333px);
   grid-template-columns: calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px);
   grid-gap: 5px 5px;
 }
@@ -1190,8 +1189,8 @@
   .u-section-4 .u-text-1 {
     font-size: 0.75rem;
     margin-top: 40px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .u-section-4 .u-btn-1 {
@@ -1205,16 +1204,16 @@
 }
 
 .u-section-5 .u-sheet-1 {
-  min-height: 215px;
+  min-height: 300px;
 }
 
 .u-section-5 .u-layout-wrap-1 {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 50px;
 }
 
 .u-section-5 .u-layout-cell-1 {
-  min-height: 215px;
+  min-height: 250px;
 }
 
 .u-section-5 .u-container-layout-1 {
@@ -1224,22 +1223,30 @@
 .u-section-5 .u-social-icons-1 {
   height: 48px;
   min-height: 16px;
-  width: 116px;
-  min-width: 52px;
+  width: 252px;
+  min-width: 124px;
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: 84px auto 0;
+  margin: 0 auto;
 }
 
 .u-section-5 .u-icon-2 {
   height: 48px;
 }
 
+.u-section-5 .u-icon-3 {
+  height: 48px;
+}
+
+.u-section-5 .u-icon-4 {
+  height: 48px;
+}
+
 .u-section-5 .u-layout-cell-2 {
-  min-height: 215px;
+  min-height: 250px;
 }
 
 .u-section-5 .u-container-layout-2 {
@@ -1267,7 +1274,7 @@
   }
 
   .u-section-5 .u-layout-cell-2 {
-    min-height: 140px;
+    min-height: 163px;
   }
 }
 
@@ -1278,10 +1285,6 @@
 
   .u-section-5 .u-layout-cell-1 {
     min-height: 132px;
-  }
-
-  .u-section-5 .u-social-icons-1 {
-    margin-top: 0;
   }
 
   .u-section-5 .u-layout-cell-2 {
@@ -1310,11 +1313,12 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 241px;
+    min-height: 284px;
   }
 
   .u-section-5 .u-layout-wrap-1 {
-    margin-bottom: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .u-section-5 .u-layout-cell-1 {
